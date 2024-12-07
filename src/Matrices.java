@@ -57,7 +57,7 @@ public class Matrices {
     //-----------------------------------------------------------------------------------
 
     //*********************************************************************************
-    private static int[][] multiplyMatrices(int[][] matrix1, int[][] matrix2)
+    public static int[][] multiplyMatrices(int[][] matrix1, int[][] matrix2)
 
             throws IllegalArgumentException {
         if (matrix1[0].length != matrix2.length ) {
